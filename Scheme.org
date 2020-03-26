@@ -3,8 +3,8 @@
 #+title:About Scheme
 #+subtitle:{{{version}}} {{{date}}}
 #+author:Pinecone
-#+date:2020-03-26 00:32
-#+macro:version Version 0.0.3
+#+date:2020-03-26 00:53
+#+macro:version Version 0.0.4
 :BUCKET:
 :bucket_url: https://pinecone-forest.com
 :END:
@@ -85,11 +85,15 @@ This document is about the Scheme programming language, and SICP instruction.
 :END:
 
 * Scheme Resources
-- [[https://www.gnu.org/software/mit-scheme/][MIT/GNU Scheme]]
+- [[https://www.gnu.org/software/mit-scheme/][MIT/GNU Scheme Home]]
 
 - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/index.html][MIT/GNU Scheme User Manual]]
 
+  - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user.pdf][PDF]]
+
 - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/index.html][MIT/GNU Scheme Reference Manual]]
+
+  - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref.pdf][PDF]]
 
 - [[https://groups.csail.mit.edu/mac/users/gjs/6.945/dont-panic/][MIT 6.945]]
 
@@ -116,11 +120,40 @@ This document is about the Scheme programming language, and SICP instruction.
 
   - [[https://mitpress.mit.edu/sites/default/files/sicp/errata.html][Errata]]
 
+- [[https://www.neilvandyke.org/sicp-texi/][SICP Texinfo]]
+
+  Lytha Ayth converted the book to Texinfo format, so that the book can be
+  viewed in Emacs. S/he apparently redrew all the figures using ASCII text
+  characters, which is rather perverse.
+
+  - [[https://www.neilvandyke.org/sicp-texi/sicp.texi.gz][sicp.texi.gz download]]
+
+  - [[https://www.neilvandyke.org/sicp-texi/sicp.info.gz][sicp.info.gz download]]
+
+- [[https://github.com/sarabander/sicp][Sarabander SICP HTML5/EPUB3]]
+
+  This is a new HTML5 and EPUB3 version of "Structure and Interpretation of
+  Computer Programs" by Abelson, Sussman, and Sussman. It comes from the
+  lineage of Unofficial Texinfo Format that was converted from the original
+  HTML version at The MIT Press.
+
+  - [[https://github.com/sarabander/sicp-epub/blob/master/sicp.epub?raw=true][EPUB]]
+
+  - [[https://sarabander.github.io/sicp][HTML]]
+
+  - [[https://github.com/sarabander/sicp-pdf][PDF]]
+
+- [[http://www.xuanji.li/isicp/index.html][Interactive Version]]
+
+  - [[https://github.com/ldct/isicp][GitHub Source]]
+
 - [[https://mitpress.mit.edu/sites/default/files/sicp/code/index.html][SICP Code]]
 
 - [[https://mitpress.mit.edu/sites/default/files/sicp/psets/index.html][SICP Programming Assignments]]
 
 - [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][MIT 6.001]]
+
+  - [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/][Video Lectures by Abelson and Sussman]]
 
   - [[https://stereobooster.com/posts/legendary-mit-6.001/][Legendary MIT 6.001]]
 
