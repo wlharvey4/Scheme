@@ -3,8 +3,8 @@
 #+title:About Scheme
 #+subtitle:{{{version}}} {{{date}}}
 #+author:Pinecone
-#+date:2020-03-26 00:11
-#+macro:version Version 0.0.2
+#+date:2020-03-26 00:32
+#+macro:version Version 0.0.3
 :BUCKET:
 :bucket_url: https://pinecone-forest.com
 :END:
@@ -104,6 +104,9 @@ This document is about the Scheme programming language, and SICP instruction.
     'nmv-header?
     (lambda args #f))
   #+end_src
+
+- [[https://racket-lang.org/][Racket Home]]
+
 
 
 * SICP Root
@@ -118,6 +121,8 @@ This document is about the Scheme programming language, and SICP instruction.
 - [[https://mitpress.mit.edu/sites/default/files/sicp/psets/index.html][SICP Programming Assignments]]
 
 - [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][MIT 6.001]]
+
+  - [[https://stereobooster.com/posts/legendary-mit-6.001/][Legendary MIT 6.001]]
 
 - [[http://web.mit.edu/alexmv/6.037/][MIT 6.037]]
 
