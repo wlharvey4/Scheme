@@ -3,8 +3,8 @@
 #+title:About Scheme
 #+subtitle:{{{version}}} {{{date}}}
 #+author:Pinecone
-#+date:2020-03-25 23:41
-#+macro:version Version 0.0.1
+#+date:2020-03-26 00:11
+#+macro:version Version 0.0.2
 :BUCKET:
 :bucket_url: https://pinecone-forest.com
 :END:
@@ -71,7 +71,8 @@ most recently uploaded version.
 ## Date
 ## Version
 # ABSTRACT
-This document is about the Scheme programming language.
+This document is about the Scheme programming language, and SICP instruction.
+
 # INTRODUCTION
 # CHAPTER
 ## Section
@@ -89,7 +90,44 @@ This document is about the Scheme programming language.
 - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/index.html][MIT/GNU Scheme User Manual]]
 
 - [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/index.html][MIT/GNU Scheme Reference Manual]]
+
+- [[https://groups.csail.mit.edu/mac/users/gjs/6.945/dont-panic/][MIT 6.945]]
+
+  Sun. 2020-03-08:
+
+  Just a reminder that since some releases of mit-scheme 10.1.10 have a vector
+  printing bug, here's a patch to fix it:
+
+  #+begin_src lisp
+  (environment-define 
+    ( ->environment '(runtime printer))
+    'nmv-header?
+    (lambda args #f))
+  #+end_src
 
+
+* SICP Root
+- [[https://mitpress.mit.edu/sites/default/files/sicp/index.html][SICP HOME]]
+
+- [[https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html][SICP HTML]]
+
+  - [[https://mitpress.mit.edu/sites/default/files/sicp/errata.html][Errata]]
+
+- [[https://mitpress.mit.edu/sites/default/files/sicp/code/index.html][SICP Code]]
+
+- [[https://mitpress.mit.edu/sites/default/files/sicp/psets/index.html][SICP Programming Assignments]]
+
+- [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][MIT 6.001]]
+
+- [[http://web.mit.edu/alexmv/6.037/][MIT 6.037]]
+
+  This fast-paced course covers the material in the classic book Structure and
+  Interpretation of Computer Programs — a class previously known at MIT as
+  6.001. It uses Scheme to introduce students to principles of computation, and
+  to teach thought patterns for computer science. Students are taught to apply
+  structural, procedural, and meta-linguistic abstraction to solve
+  computational problems. Five projects will be assigned and graded.
+
 * Build Tools
 :PROPERTIES:
 :appendix: t
