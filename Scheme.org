@@ -1,10 +1,10 @@
 # -*- mode:org; -*-
 
-#+title:Scheme
+#+title:About Scheme
 #+subtitle:{{{version}}} {{{date}}}
 #+author:Pinecone
-#+date:2020-02-27 22:26
-#+macro:version Version 0.0.0
+#+date:2020-03-25 23:41
+#+macro:version Version 0.0.1
 :BUCKET:
 :bucket_url: https://pinecone-forest.com
 :END:
@@ -71,8 +71,7 @@ most recently uploaded version.
 ## Date
 ## Version
 # ABSTRACT
-This is the Org Template file.  It is the parent of all other Org Info blogs,
-and provides the source code for processing them in various different ways.
+This document is about the Scheme programming language.
 # INTRODUCTION
 # CHAPTER
 ## Section
@@ -83,29 +82,13 @@ and provides the source code for processing them in various different ways.
 :PROPERTIES:
 :unnumbered: t
 :END:
-** TODO Ideas on how to make this a better system
-*** TODO Install major dependencies
-[2020-02-14 Fri 10:12]
-- [ ] like ~aws2~
-- [ ] Org-mode > 9.1.9
-*** TODO Get rid of hard-coded directories
-- [ ] ~create-script~
-  [2020-02-14 Fri 09:45]
 
-  This script places itself inside a ~bin/~ directory so it can be found by
-  searching $PATH.  This can be accomplished by creating an environment
-  variable; I need to come up with a good domain name for this system first.
-  How about =SyncOrg=?  So the environment variable would be =SYNC_ORG_BIN=.  A
-  possible value would =~/Dev/bin= or =/usr/local/dev/bin=, depending on the
-  system.
-*** TODO Add check for existence of environment variables
-[2020-02-14 Fri 09:57]
-- [ ] it appears environment variables do not expand inside header lines? Check
-  this.
-- [ ] if environment variables do not expand, then need to provide a script to
-  update them upon installation
-- [ ] such as =SYNC_ORG_BIN=
-* Chapter
+* Scheme Resources
+- [[https://www.gnu.org/software/mit-scheme/][MIT/GNU Scheme]]
+
+- [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/index.html][MIT/GNU Scheme User Manual]]
+
+- [[https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-ref/index.html][MIT/GNU Scheme Reference Manual]]
 
 * Build Tools
 :PROPERTIES:
